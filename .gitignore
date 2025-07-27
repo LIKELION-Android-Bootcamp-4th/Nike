@@ -1,0 +1,69 @@
+# Android Studio
+.idea/
+*.iml
+
+# Kotlin/Java build output
+/build/
+*/build/
+
+# Gradle
+.gradle/
+local.properties
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Signing files
+*.jks
+*.keystore
+**/signing.properties
+
+# Log/Temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Android Studio Generated
+captures/
+output.json
+*.hprof
+
+# Unit test reports
+/test-output/
+test-results/
+*.xml
+
+# Caches
+.cxx/
+.externalNativeBuild/
+*.lock
+
+# NDK
+obj/
+*.so
+
+# Misc
+*.apk
+*.ap_
+*.dex
+
+# Jetpack Compose preview cache
+*.preview.cache
+
+# Auto backup (if using certain plugins)
+*.bak
+*.orig
+
+# Firebase crashlytics / performance
+crashlytics-build.properties
+fabric.properties
+
+# Proguard mapping
+mapping.txt
+
+# Local env files
+.env
+.env.*
